@@ -1,0 +1,108 @@
+
+<!-- You are hired as a liaison between the IT department and the faculty at the university to create an online quiz for an instructor who teaches Web Programming course. 
+The instructor tells you to create a pre-quiz that can be used to test the students JavaScript knowledge. Their should be at least 10 multiple choice questions with 
+an a, b, c, or d options. Use a form to retrieve your answers. Modify the layout using table, colors, and graphics to make the Webpage look professional.
+
+At the top of the web page there should be a text box that displays the correct number of correct answers after the user submitted the quiz. -->
+
+
+<!DOCTYPE HTML>
+<HTML>
+	<HEAD>
+		<TITLE>pre-quiz</TITLE>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="quiz.js"></script>
+	</HEAD>
+	<BODY>
+		
+		<header><h1>JavaScript</h1></header>
+		
+		<div class="form">
+		<form name="quiz" id="quiz">
+        
+			<div>
+				<p>1. Which HTML element do we use for JavaScript?</p>
+				<p><input type="radio" name="choice1" value="A">A. javascrpt</p>
+				<p><input type="radio" name="choice1" value="B">B. js</p>
+				<p><input type="radio" name="choice1" value="C">C. script</p>
+				<p><input type="radio" name="choice1" value="D">D. scriptin</p>
+			</div>
+
+			<div>
+				<p>2. Which files does java scrypt use?</p>
+				<p><input type="radio" name="choice2" value="A">A. .java</p>
+				<p><input type="radio" name="choice2" value="B">B. .js</p>
+				<p><input type="radio" name="choice2" value="C">C. .script</p>
+				<p><input type="radio" name="choice2" value="D">D. .javascript</p>
+			</div>
+
+			<div>
+				<p>3. What variable doesnt change its value</p>
+				<p><input type="radio" name="choice3" value="A">A. var</p>
+				<p><input type="radio" name="choice3" value="B">B. let</p>
+				<p><input type="radio" name="choice3" value="C">C. const</p>
+				<p><input type="radio" name="choice3" value="D">D. int</p>
+			</div>
+
+			<div>
+				<p>4. javascript is a?</p>
+				<p><input type="radio" name="choice4" value="A">A. object-oriented programming language</p>
+				<p><input type="radio" name="choice4" value="B">B. hyper text language</p>
+				<p><input type="radio" name="choice4" value="C">C. database</p>
+				<p><input type="radio" name="choice4" value="D">D. Scripting language</p>
+			</div>
+
+			<div>
+				<p>5. What is the correct syntax for referring to an external script?</p>
+				<p><input type="radio" name="choice5" value="A">A. script href=""</p>
+				<p><input type="radio" name="choice5" value="B">B. script name=""</p>
+				<p><input type="radio" name="choice5" value="C">C. script src=""</p>
+				<p><input type="radio" name="choice5" value="D">D. all is correct</p>
+			</div>
+
+			<div>
+				<p>6. alert("hello world!")</p>
+				<p><input type="radio" name="choice6" value="A">A. hello</p>
+				<p><input type="radio" name="choice6" value="B">B. ""</p>
+				<p><input type="radio" name="choice6" value="C">C. hello world!</p>
+				<p><input type="radio" name="choice6" value="D">D. h</p>
+			</div>
+
+			<div>
+				<p>7. How do you declare a JavaScript variable?</p>
+				<p><input type="radio" name="choice7" value="A">A. const a;</p>
+				<p><input type="radio" name="choice7" value="B">B. consta;</p>
+				<p><input type="radio" name="choice7" value="C">C. c a;</p>
+				<p><input type="radio" name="choice7" value="D">D. const 3a;</p>
+			</div>
+
+			<div>
+				<p>8. Which operator is used to assign a value to a variable?</p>
+				<p><input type="radio" name="choice8" value="A">A. ==</p>
+				<p><input type="radio" name="choice8" value="B">B. =</p>
+				<p><input type="radio" name="choice8" value="C">C. +</p>
+				<p><input type="radio" name="choice8" value="D">D. *</p>
+			</div>
+
+			<div>
+				<p>9. Where is the correct place to insert a JavaScript?</p>
+				<p><input type="radio" name="choice9" value="A">A. body tag</p>
+				<p><input type="radio" name="choice9" value="B">B. head tag</p>
+				<p><input type="radio" name="choice9" value="C">C. title tag</p>
+				<p><input type="radio" name="choice9" value="D">D. A and B</p>
+			</div>
+
+			<div>
+				<p>10. How do you create a function in JavaScript?</p>
+				<p><input type="radio" name="choice10" value="A">A. funtion + ()</p>
+				<p><input type="radio" name="choice10" value="B">B. function::()</p>
+				<p><input type="radio" name="choice10" value="C">C. function</p>
+				<p><input type="radio" name="choice10" value="D">D. function ()</p>
+			</div>
+			<input name="button" type="button" value="submit" onclick="finish()">
+		</div>
+			
+		</form>
+		
+	</BODY>
+</HTML>
